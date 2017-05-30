@@ -9,6 +9,6 @@ var area=d3.area()
   .y0(height)
   .y1(function(d){return height - d;});
 
-  var svg=d3.select("body").append("svg").attr("height","100%").attr("width","100%");
+var svg=d3.select("body").append("svg").attr("height","100%").attr("width","100%");
 
-  svg.append("path").attr("d",area(dataArray));
+svg.append("path").attr("d",area(dataArray));
