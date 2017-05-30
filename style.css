@@ -24,3 +24,7 @@ g.group2 circle {
   stroke: green;
   fill: red;
 }
+
+g.tick line {
+  stroke: blue;
+}
