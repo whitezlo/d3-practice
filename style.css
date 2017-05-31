@@ -28,3 +28,8 @@ g.group2 circle {
 g.tick line {
   stroke: blue;
 }
+
+g.hidden line,
+g.hidden path {
+  display: none;
+}
